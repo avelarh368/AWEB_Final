@@ -1,7 +1,5 @@
 /**
  * This is the default configuration for CORS.
- * 
- * I'm not sure why it doesn't show up.
  */
 import allowedOrigins from './allowedOrigins';
 

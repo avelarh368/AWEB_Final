@@ -1,7 +1,21 @@
 # **Proyecto Final de Aplicaciones Web Orientadas a Servicios**
----
 ## Gettings Started
 ---
+[Cuando en duda consulten la guía de estilos de Google.](https://google.github.io/styleguide/jsguide.html#jsdoc-method-and-function-comments)
+#### **TL;DR:**<br />
+- 2 espacios de indentación
+- Nombre de **variables en inglés**
+- Importaciones de forma "import name from 'where';"
+- **Punto y coma obligatorio**.
+
+- Usen espacios entre elementos:
+```
+if (bien) { bien, bien }
+
+if(mal){mal,mal}
+```
+
+- Usen docstrings.
 
 [Como escribir un buen README.md](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 ##  Requerimientos
