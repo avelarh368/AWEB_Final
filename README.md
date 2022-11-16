@@ -5,7 +5,7 @@
 #### **TL;DR:**<br />
 - 2 espacios de indentación
 - Nombre de **variables en inglés**
-- Importaciones de forma "import name from 'where';"
+- Para módulos usen CommonJS (const mod = require('mod'))
 - **Punto y coma obligatorio**.
 
 - Usen espacios entre elementos:
