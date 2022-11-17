@@ -36,13 +36,13 @@ For more examples, please refer to the Documentation
 ## Contributors
 ---
 
-|Name | ID | Group
-|---|---|---|
-| Mauricio López Cházaro | 210804 | 4C6
-| --- | --- | --- |
-| --- | --- | --- |
-| --- | --- | --- |
-| --- | --- | --- |
+|Name |
+|---|
+| MauricioEnLaUni |
+| --- |
+| --- |
+| --- |
+| --- |
 
 ## License
 ---
