@@ -28,3 +28,5 @@ if(mal){mal,mal}
 - Usen docstrings.
 
 [Como escribir un buen README.md](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+
+lmao
