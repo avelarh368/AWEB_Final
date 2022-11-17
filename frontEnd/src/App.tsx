@@ -1,10 +1,8 @@
-import { Redirect, Route } from 'react-router-dom';
+import { Link, Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 
-import MovieList from './data/MoviesList';
-import MoviePoster from './pages/MoviePoster';
-import IMovie from './model/Movie';
+import Movies from './pages/Movies';
 
 // import IUserAccessForm from './model/Form';
 // import FormsComponent from './components/Form';
@@ -39,16 +37,17 @@ const App: React.FC = () => (
           <FormsComponent props={toForms}/>
         </Route>
       */}
-      <Route>
-        {/**
-         * I FUCKING LOVE TYPESCRIPT
-         * PLEASE WASTE MORE OF MY FUCKING TIME
-         * I HAVE NO FUCKING CLUE HOW THIS SINTAX IS SUPPOSED TO WORK
-         * OR WHY THE FUCK IT DOES
-         * BUT IT DOES SO I'M FUCKING DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONE
-         */}
-        <MoviePoster {...MovieList as Array<IMovie>}/>
-      </Route>
+        <Route path='/movies' exact={true}>
+          {/**
+           * I FUCKING LOVE TYPESCRIPT
+           * PLEASE WASTE MORE OF MY FUCKING TIME
+           * I HAVE NO FUCKING CLUE HOW THIS SINTAX IS SUPPOSED TO WORK
+           * OR WHY THE FUCK IT DOES
+           * BUT IT DOES SO I'M FUCKING DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONE
+           */}
+          
+          <Movies/>
+        </Route>
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
