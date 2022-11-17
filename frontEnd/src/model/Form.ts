@@ -1,8 +1,8 @@
 /**
- * Interfaces for Log In and Register pages.
+ * @fileoverview Stores Input variables to draw the input on screen.
  * 
- * @fileoverview Stores Input variables to draw the input on screen. It also provides
- * a variable to store the state and the event that triggers the change
+ * It also provides a variable to store the state and the event that
+ * triggers the change
  * .
  */
  import { TextFieldTypes } from '@ionic/core/components';
@@ -17,7 +17,6 @@
    autoComplete?: boolean;
    changeEvent: any;// This is bad, I'm not fixing it doe.
    value: string;
-   sentValue: string;
    required: boolean;
  };
  

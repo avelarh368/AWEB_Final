@@ -1,30 +1,49 @@
 # **Proyecto Final de Aplicaciones Web Orientadas a Servicios**
 ## Gettings Started
 ---
-[Cuando en duda consulten la guía de estilos de Google.](https://google.github.io/styleguide/jsguide.html#jsdoc-method-and-function-comments)
-#### **TL;DR:**<br />
-- 2 espacios de indentación
-- Nombre de **variables en inglés**
-- Para módulos usen CommonJS (const mod = require('mod'))
-- **Punto y coma obligatorio**.
+El sistema siguiente permitirá a los usuarios seleccionar una película, elegir un horario para ver la misma película, así como sus asientos a través de una interfaz gráfica.
 
-- Usen espacios entre elementos:
-```
-if (bien) { bien, bien }
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+Prerequisites
 
-if(mal){mal,mal}
-```
+This is an example of how to list things you need to use the software and how to install them.
 
-- Usen docstrings.
+- npm<br />
+```npm install npm@latest -g```
 
-[Como escribir un buen README.md](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
-##  Requerimientos
+### Installation
+
+Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
+
+  1. Get a free API Key at https://example.com
+  2. Clone the repo
+
+    git clone https://github.com/your_username_/Project-Name.git
+
+  3. Install NPM packages
+
+    npm install
+
+  4. Enter your API in config.js
+
+    const API_KEY = 'ENTER YOUR API';
+
+## Usage
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+For more examples, please refer to the Documentation
+
+## Contributors
 ---
-1. [ ] Al presionar sobre un asiento se mostrará 
-2. [ ] Cuando el usuario presione sobre un asiento en verde (disponible) debe de mostrarse una pantalla para recoger la información general del ocupante,
-3. [ ] Se almacenará el nombre, correo y teléfono del ocupante,
-4. [ ] Al reservar se guardar junto con los datos del asiento (fila, letra), fecha de reserva y código alfanumérico,
-5. [ ] El código se usará para cancelar posteriormente un boleto.
-6. [ ] Al registrar, se guarda dicha información y la información en un modal junto al costo.
-7. [ ] El sistema permite la consulta de Boletos vendidos, distribución de sala por horario, boletos por persona; en todos los casos dibujará la sala.
-8. [ ] La interface se debe mostrar una barra con clima de la ubicacion del usuario, ubicacion del cine y seccion de noticias. 
+
+|Name | ID | Group
+|---|---|---|
+| Mauricio López Cházaro | 210804 | 4C6
+| --- | --- | --- |
+| --- | --- | --- |
+| --- | --- | --- |
+| --- | --- | --- |
+
+## License
+---
+Distributed under the MIT License. See LICENSE.txt for more information.

@@ -21,7 +21,7 @@ const FormsComponent = (props: IUserAccessForm) => {
               type={element.type}
               id={element.id}
               ref={element.ref || null}
-              // onIonChange={pass}
+              onIonChange={(e) => element.changeEvent(e.target.value)}
               value={element.value}
               required={element.required || false}
             >

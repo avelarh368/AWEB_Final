@@ -2,8 +2,12 @@ import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 
-import IUserAccessForm from './model/Form';
-import FormsComponent from './components/Form';
+import MovieList from './data/MoviesList';
+import MoviePoster from './pages/MoviePoster';
+import IMovie from './model/Movie';
+
+// import IUserAccessForm from './model/Form';
+// import FormsComponent from './components/Form';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -26,16 +30,25 @@ import './theme/variables.css';
 
 setupIonicReact();
 
-const toForms: IUserAccessForm = {
-};
-
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
+        {/*
         <Route path='/index(.html)?' exact={true}>
           <FormsComponent props={toForms}/>
         </Route>
+      */}
+      <Route>
+        {/**
+         * I FUCKING LOVE TYPESCRIPT
+         * PLEASE WASTE MORE OF MY FUCKING TIME
+         * I HAVE NO FUCKING CLUE HOW THIS SINTAX IS SUPPOSED TO WORK
+         * OR WHY THE FUCK IT DOES
+         * BUT IT DOES SO I'M FUCKING DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONE
+         */}
+        <MoviePoster {...MovieList as Array<IMovie>}/>
+      </Route>
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
